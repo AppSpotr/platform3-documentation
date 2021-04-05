@@ -58,6 +58,6 @@ html_static_path = ['_static']
 
 # overrides
 html_theme_options = {
-    'html_logo': 'https://uploads-ssl.webflow.com/5e6c676175d1aeb1a59777f4/5e6d2a04a2ae97590626c19e_logo.png',
+    'html_logo': '_static/logo.png',
     'logo_only': True,
 }
