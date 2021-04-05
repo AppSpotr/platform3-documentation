@@ -12,6 +12,7 @@ Appspotr: Build apps quickly and without limitations
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :hidden:
 
 **Native & PWA Appspotr 3 is here** |:iphone:|
    Our low-code platform lets you create professional business apps quickly and at large scale. No matter how complex your needs, we ensure your toolkit is sharp and ready for the rising and ever-changing demands of the market today.

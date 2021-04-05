@@ -54,4 +54,10 @@ html_theme = 'divio_docs_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static', 'css']
+html_static_path = ['_static']
+
+# overrides
+html_theme_options = {
+    'html_logo': 'https://uploads-ssl.webflow.com/5e6c676175d1aeb1a59777f4/5e6d2a04a2ae97590626c19e_logo.png',
+    'logo_only': True,
+}
