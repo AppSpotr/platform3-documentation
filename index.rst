@@ -39,6 +39,9 @@ App Version Management
 
    /app-version-management/app-content
 
+App Version Management is a platform architecture and set of tools that allow control over features and content that are made available
+to your users.
+
 Navigation
 ==========
 
@@ -50,6 +53,9 @@ Navigation
    /navigation/native
    /navigation/navigators
    /navigation/top-bar
+
+Using a concept of patches and edges, you can build an app structure by simple drag and drop. The end result is akin to what an app 
+developer would normally have to code. In our case, no code is needed.
 
 Data
 ====
@@ -64,6 +70,8 @@ Data
    /data/storage
    /data/state
    /data/variables
+
+There are multiple places your apps can fetch and store data. Each has its own purpose.
 
 Logic Blocks
 ============
@@ -83,14 +91,4 @@ Logic Blocks
    /logic-blocks/push
    /logic-blocks/data
 
-
-Storage
-=======
-
-State
-=====
-
-Variables
-=========
-
-
+Small pieces of self contained logic that can be combined to suit your use case.
