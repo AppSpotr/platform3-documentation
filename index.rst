@@ -10,8 +10,8 @@ Appspotr: Build apps quickly and without limitations
    :description lang=en: Professional apps – faster and with more control. Build apps quickly and without limitations.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: About:
    :hidden:
 
 **Native & PWA Appspotr 3 is here** |:iphone:|
@@ -30,5 +30,23 @@ Appspotr: Build apps quickly and without limitations
 
 App Version Management
 ======================
+
+Navigation
+==========
+
+App Version Management
+======================
+
+Logic Blocks
+============
+
+Storage
+=======
+
+State
+=====
+
+Variables
+=========
 
 

@@ -21,7 +21,9 @@ import sphinx_rtd_theme
 project = 'Appspotr - Platform 3'
 copyright = '2021, Appspotr AB'
 author = 'Appspotr'
-version = '0.16.0'
+
+f = open("VERSION", "r")
+version = f.read()
 release = version
 
 
@@ -55,7 +57,6 @@ html_title = project
 #
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-print(html_theme_path)
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
