@@ -11,7 +11,7 @@ Appspotr: Build apps quickly and without limitations
 
 .. toctree::
    :maxdepth: 1
-   :caption: About:
+   :caption: About Appspotr
    :hidden:
 
 **Native & PWA Appspotr 3 is here** |:iphone:|
@@ -31,14 +31,44 @@ Appspotr: Build apps quickly and without limitations
 App Version Management
 ======================
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: App Version Management
+
+   /app-version-management/app-content
+
 Navigation
 ==========
 
-App Version Management
-======================
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Navigation
+
+   /navigation/native
+   /navigation/navigators
+   /navigation/top-bar
+
 
 Logic Blocks
 ============
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Logic Blocks
+
+   /logic-blocks/auth
+   /logic-blocks/navigation
+   /logic-blocks/app
+   /logic-blocks/refresh
+   /logic-blocks/user
+   /logic-blocks/dataset
+   /logic-blocks/group
+   /logic-blocks/push
+   /logic-blocks/data
+
 
 Storage
 =======
