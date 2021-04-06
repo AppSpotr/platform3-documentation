@@ -50,6 +50,19 @@ Navigation
    /navigation/navigators
    /navigation/top-bar
 
+Data
+====
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Data
+
+   /data/datasets
+   /data/integrations
+   /data/storage
+   /data/state
+   /data/variables
 
 Logic Blocks
 ============
