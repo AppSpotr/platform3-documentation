@@ -15,14 +15,14 @@ read -p "Are you sure you want to re-tag (yes): " INPUT_STRING
 if [ "$INPUT_STRING" == "yes" ]; then
   printf "\n re-tagging..."
 
-  git push origin :refs/tags/"v$BASE_STRING"
+  git push origin :refs/tags/"$BASE_STRING"
 
-  git tag --delete "v$BASE_STRING"
+  git tag --delete "$BASE_STRING"
 
   echo "⚙️ Tagging..."
-  git tag -a -m "Tagging version $BASE_STRING" "v$BASE_STRING"
+  git tag -a -m "Tagging version $BASE_STRING" "$BASE_STRING"
 
-  git push origin "v$BASE_STRING"
+  git push origin "$BASE_STRING"
 
   printf "\n"
   echo "✅️ Tag pushed"
