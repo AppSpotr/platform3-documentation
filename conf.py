@@ -15,6 +15,12 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 
+try:
+    html_context
+except NameError:
+    html_context = dict()
+html_context['display_lower_left'] = True
+
 
 # -- Project information -----------------------------------------------------
 
@@ -25,6 +31,10 @@ author = 'Appspotr'
 f = open("VERSION", "r")
 version = f.read()
 release = version
+
+current_version = version
+html_context['current_version'] = version
+html_context['version'] = version
 
 
 # -- General configuration ---------------------------------------------------
@@ -37,7 +47,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
-    'sphinxemoji.sphinxemoji'
+    'sphinxemoji.sphinxemoji',
+    'sphinx_rtd_theme'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
