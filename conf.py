@@ -13,11 +13,12 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import sphinx_rtd_theme
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'Appspotr - Platform '
+project = 'Appspotr - Platform 3'
 copyright = '2021, Appspotr AB'
 author = 'Appspotr'
 version = '0.16.0'
@@ -52,7 +53,8 @@ html_title = project
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'divio_docs_theme'
+html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -63,4 +65,5 @@ html_static_path = ['_static']
 html_logo = '_static/logo.png'
 html_theme_options = {
     'logo_only': True,
+    'display_version': True
 }
