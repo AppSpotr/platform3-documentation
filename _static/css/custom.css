@@ -11,6 +11,12 @@
   color: #383838 !important;
 }
 
+@media screen and (max-width: 768px) {
+  .wy-side-nav-search {
+    width: auto;
+  }
+}
+
 .wy-side-nav-search > div.version {
   margin-top: -0.4045em;
   margin-bottom: 0.809em;

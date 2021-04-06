@@ -7,7 +7,8 @@ Appspotr: Build apps quickly and without limitations
 ====================================================
 
 .. meta::
-   :description lang=en: Professional apps – faster and with more control. Build apps quickly and without limitations.
+   :description lang=en: 
+      Professional apps – faster and with more control. Build apps quickly and without limitations.
 
 .. toctree::
    :maxdepth: 1
