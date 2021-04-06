@@ -28,9 +28,7 @@ Appspotr: Build apps quickly and without limitations
 
 
 
-Indices and tables
-==================
+App Version Management
+======================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+

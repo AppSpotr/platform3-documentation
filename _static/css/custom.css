@@ -1,3 +1,19 @@
+@import "./theme.css";
+
 .wy-side-nav-search {
-  background-color: white !important;
+  display: block;
+  width: 300px;
+  padding: 0.809em;
+  margin-bottom: 0.809em;
+  z-index: 200;
+  background-color: #ffffff !important;
+  text-align: center;
+  color: #383838 !important;
+}
+
+.wy-side-nav-search > div.version {
+  margin-top: -0.4045em;
+  margin-bottom: 0.809em;
+  font-weight: 400;
+  color: hsl(0, 0%, 24%) !important;
 }
