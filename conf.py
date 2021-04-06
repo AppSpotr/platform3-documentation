@@ -17,9 +17,11 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Appspotr - Platform 3'
+project = 'Appspotr - Platform '
 copyright = '2021, Appspotr AB'
 author = 'Appspotr'
+version = '0.16.0'
+release = version
 
 
 # -- General configuration ---------------------------------------------------
@@ -45,6 +47,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
+html_title = project
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -57,7 +60,7 @@ html_theme = 'divio_docs_theme'
 html_static_path = ['_static']
 
 # overrides
+html_logo = '_static/logo.png'
 html_theme_options = {
-    'html_logo': '_static/logo.png',
     'logo_only': True,
 }

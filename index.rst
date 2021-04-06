@@ -24,7 +24,7 @@ Appspotr: Build apps quickly and without limitations
    Appspotr allows you to create unique apps which can be scaled up dynamically and updated according to arising needs. As a flexible partner we continually make sure that your integrations work properly and provide you with new functionality for your apps.
 
 **Control** |:control_knobs:|
-   With Appspotr 3, multifunctional organisations have full, centralized control of their apps. Thanks to the smart interface you get a perfect overview of development, updates and role-specific user groups.
+   With Appspotr 3, multifunctional organisation have full, centralized control of their apps. Thanks to the smart interface you get a perfect overview of development, updates and role-specific user groups.
 
 
 
