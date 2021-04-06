@@ -62,8 +62,12 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
 # overrides
-html_logo = '_static/logo.png'
+html_logo = '_static/assets/logo.png'
 html_theme_options = {
     'logo_only': True,
     'display_version': True
 }
+
+
+def setup(app):
+    app.add_css_file('_static/css/custom.css')
