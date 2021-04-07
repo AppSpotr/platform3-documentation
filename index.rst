@@ -37,7 +37,7 @@ App Version Management
    :hidden:
    :caption: App Version Management
 
-   /app-version-management/app-content
+   /app-version-management/index
 
 App Version Management is a platform architecture and set of tools that allow control over features and content that are made available
 to your users.
