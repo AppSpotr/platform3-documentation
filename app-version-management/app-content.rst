@@ -9,7 +9,7 @@ App content is what the users see in their app. It depends on the Platform Versi
 a the matching Version of content that was published for that app.
 
 Platform Version
-----------------
+================
 
 This is the underlying code that the App and CMS are running on. It follows `semantic versioning <https://semver.org/>`_.
 If your app is on Platform Version ``0.16.1``, the CMS will also be adapted for ``0.16.1``. This allows you to consult the
@@ -32,7 +32,7 @@ up to date and not need to auto-update itself.
 
 
 Versions
---------
+========
 
 This is the content that is available to an app. 
 
@@ -55,7 +55,7 @@ It's important to keep in mind that the entire contents of a version of app cont
 
 
 Platform Version + Versions
----------------------------
+===========================
 
 Combining these two concepts together is what allows your app to display content and features to users. 
 
@@ -65,7 +65,7 @@ Encourage your users to stay keep their apps up to date and make sure to follow 
 is happening. This will ensure that you and your customers benefit from improvements to the platform.
 
 PWA Platform Version
---------------------
+====================
 
 All users that open the PWA will run that app at the latest version as long as there is app content available for that platform version.
 
